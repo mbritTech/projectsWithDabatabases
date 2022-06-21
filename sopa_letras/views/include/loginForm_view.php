@@ -1,6 +1,6 @@
 <?php if ($_SESSION['perfil'] == "invitado") { ?>
-    <h2>Login</h2>
-    <form action="" method="post">
+    <form action="" method="post" id="loginForm">
+        <h2>Login</h2>
         <label for="us">Introduce el usuario: </label>
         <input type="text" name="user" id="us">
         <br><br>
