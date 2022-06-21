@@ -41,7 +41,7 @@ p{
 
 #loginForm{
     box-shadow: 0px 0px 5px 1px #0000005c;
-    padding: 0.5em;
+    padding: 1em 0.5em;
     margin: 1em 0;
     width: 30%;
 
@@ -55,4 +55,16 @@ p{
 
 #loginForm > input:hover{
     border-color: blue;
+}
+
+#loginForm > button{
+    border-style: none;
+    box-shadow: 0px 0px 5px 1px #0000005c;
+    border-radius: 3px 3px;
+    background-color: blue;
+    color: white;
+}
+
+#loginForm > button:hover{
+    box-shadow: 0px 0px 10px 1px #0000005c;
 }
