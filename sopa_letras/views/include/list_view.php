@@ -3,7 +3,7 @@
     <thead>
         <tr>
             <th>Palabra</th>
-            <?php if ($_SESSION["perfil"] != "invitado") { ?>
+            <?php if ($_SESSION["perfil"] == "administrador") { ?>
                 <th>Acciones</th>
             <?php } ?>
         </tr>
@@ -12,7 +12,7 @@
         <?php foreach ($data["infWord"] as $word) { ?>
             <tr>
                 <td> <?php echo $word["palabra"] ?> </td>
-                <?php if ($_SESSION["perfil"] != "invitado") { ?>
+                <?php if ($_SESSION["perfil"] == "administrador") { ?>
                     <td><button>
                             <a href="./edit/<?php echo $word["id"] ?>"><span class="material-icons">edit</span></a>
                         </button></td>
