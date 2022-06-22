@@ -7,6 +7,6 @@
         <label for="pass">Contraseña: </label>
         <input type="password" id="pass" name="password">
         <br><br>
-        <button type="submit" name="login">Iniciar Sesión</button>
+        <button type="submit" name="login"><?php echo strtoupper("iniciar sesion") ?></button>
     </form>
 <?php } ?>

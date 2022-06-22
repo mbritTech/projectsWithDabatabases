@@ -3,6 +3,7 @@
     $name = $_SESSION['name'];
 ?>
 <h1>Gestión Bookmarks</h1>
+<h3>Muy buenas <?php echo $name?>, estás como <?php echo $profile?></h3>
 <nav>
     <ul>
         <li><a href="/">Inicio</a></li>
@@ -15,4 +16,3 @@
         <li><a href="/logout">Salir</a></li>
     </ul>
 </nav>
-<h3>Muy buenas <?php echo $name?>, estás como <?php echo $profile?></h3>
