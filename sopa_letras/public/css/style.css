@@ -50,7 +50,6 @@ p{
 #loginForm > input{
     border: 2px solid rgba(0, 0, 0, 0.324);
     border-radius: 3px 3px;
-
 }
 
 #loginForm > input:hover{
@@ -66,5 +65,28 @@ p{
 }
 
 #loginForm > button:hover{
+    box-shadow: 0px 0px 10px 1px #0000005c;
+}
+
+#wordSearch > input{
+    border: 2px solid rgba(0, 0, 0, 0.324);
+    border-radius: 3px 3px;
+}
+
+#wordSearch > input:hover{
+    border-color: blue;
+
+}
+
+
+#wordSearch button{
+    border-style: none;
+    box-shadow: 0px 0px 5px 1px #0000005c;
+    border-radius: 3px 3px;
+    background-color: blue;
+    color: white;
+}
+
+#wordSearch button:hover{
     box-shadow: 0px 0px 10px 1px #0000005c;
 }

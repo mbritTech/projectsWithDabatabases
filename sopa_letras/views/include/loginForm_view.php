@@ -7,6 +7,6 @@
         <label for="pa">Introduce la contraseña: </label>
         <input type="password" name="pass" id="pa">
         <br><br>
-        <button type="submit" name="log-in">Iniciar sesión</button>
+        <button type="submit" name="log-in"><?php echo strtoupper("Iniciar sesion")?></button>
     </form>
 <?php } ?>
