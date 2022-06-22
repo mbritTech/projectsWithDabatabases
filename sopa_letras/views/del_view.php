@@ -19,7 +19,7 @@
         <input type="radio" name="ans" id="n" value="n">
         <label for="n">No</label>
         <br><br>
-        <button type="submit" name="send">Enviar</button>
+        <button type="submit" name="send"><?php echo strtoupper("borrar")?></button>
     </form>
     
 </body>

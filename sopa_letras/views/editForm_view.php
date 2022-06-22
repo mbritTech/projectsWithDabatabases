@@ -9,7 +9,7 @@
     <form action="" method="post">
         <label for="name">Nombre: </label>
         <input type="text" name="newWord" id="" value="<?php echo $data["word"]?>">
-        <button type="submit" name="send">Editar</button>
+        <button type="submit" name="send"><?php echo strtoupper("editar")?></button>
     </form>
 
 </body>
