@@ -5,5 +5,5 @@
     <br><br>
 </form>
 <?php if ($_SESSION['perfil'] == "administrador") {?>
-    <button><a href="./add">Nueva palabra</a></button>
+    <button><a href="./add"><?php echo strtoupper("nueva palabra")?></a></button>
 <?php } ?>

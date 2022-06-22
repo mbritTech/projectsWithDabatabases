@@ -12,15 +12,18 @@ ul{
 
 ul>li>a{
     padding: 0 1em;
-}
-
-a{
     color: white;
     text-decoration: none;
     font-size: large;
 }
 
-a:hover{
+a{
+    padding: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+ul>li>a:hover{
     color: black;
 }
 
@@ -47,16 +50,21 @@ p{
 
 }
 
-#loginForm > input{
+input{
     border: 2px solid rgba(0, 0, 0, 0.324);
     border-radius: 3px 3px;
 }
 
-#loginForm > input:hover{
+ input:hover{
     border-color: blue;
 }
 
-#loginForm > button{
+#tableList{
+    box-shadow: 0px 0px 5px 1px #0000005c;
+    padding: 0.5em;
+}
+
+button{
     border-style: none;
     box-shadow: 0px 0px 5px 1px #0000005c;
     border-radius: 3px 3px;
@@ -64,29 +72,6 @@ p{
     color: white;
 }
 
-#loginForm > button:hover{
-    box-shadow: 0px 0px 10px 1px #0000005c;
-}
-
-#wordSearch > input{
-    border: 2px solid rgba(0, 0, 0, 0.324);
-    border-radius: 3px 3px;
-}
-
-#wordSearch > input:hover{
-    border-color: blue;
-
-}
-
-
-#wordSearch button{
-    border-style: none;
-    box-shadow: 0px 0px 5px 1px #0000005c;
-    border-radius: 3px 3px;
-    background-color: blue;
-    color: white;
-}
-
-#wordSearch button:hover{
+button:hover{
     box-shadow: 0px 0px 10px 1px #0000005c;
 }

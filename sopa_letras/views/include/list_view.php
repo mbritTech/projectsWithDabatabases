@@ -1,5 +1,5 @@
 <h2>Listado palabras</h2>
-<table border="2px solid black">
+<table id="tableList">
     <thead>
         <tr>
             <th>Palabra</th>
