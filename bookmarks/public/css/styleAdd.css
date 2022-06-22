@@ -17,23 +17,17 @@ ul>li>a{
     font-size: large;
 }
 
-
 ul>li>a:hover{
     color: black;
 }
 
-h1{
-    color: green;
-    margin: 0;
+input{
+    border: 2px solid rgba(0, 0, 0, 0.324);
+    border-radius: 3px 3px;
 }
 
-table{
-    box-shadow: 0px 0px 5px 1px #0000005c;
-    padding: 0.5em;
-}
-
-table td{
-    padding: 0.2em 0.5em;
+input:hover{
+    border-color: green;
 }
 
 button{
@@ -41,12 +35,8 @@ button{
     box-shadow: 0px 0px 5px 1px #0000005c;
     border-radius: 3px 3px;
     background-color: green;
-    padding: 0.5em;
-}
-
-button a{
     color: white;
-    text-decoration: none;
+    padding: 0.5em;
 }
 
 button:hover{

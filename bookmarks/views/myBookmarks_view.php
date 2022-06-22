@@ -30,7 +30,7 @@
         <?php } ?>
     </table>
     <br>
-    <button type="submit" name="add"><a href="bookmarks/add"><?php echo strtoupper("añadir bookmark") ?></a></button>
+    <button type="submit" name="add"><a href="bookmarks/add"><?php echo strtoupper("add bookmark") ?></a></button>
 
 
 </body>
