@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleUsers.css">
     <title>Bookmarks</title>
 </head>
 
@@ -15,7 +16,8 @@
         <form action="" method="post">
             <table>
                 <tr>
-                    <td></td>
+                    <th>Usuario</th>
+                    <th>Username</th>
                     <td>
                         <?php if (isset($_POST['markAll'])) { ?>
                             <button type="submit">Desmarcar</button>
@@ -26,12 +28,14 @@
                 </tr>
                 <?php foreach ($data as $key => $users) { ?>
                     <tr>
-                        <td><?php echo $users['user'] . " -> " . $users['nombre'] ?></td>
+                        <td><?php echo $users['user']  ?></td>
+                        <td><?php echo $users['nombre'] ?></td>
                         <td><input type="checkbox" name="<?php echo $users['id'] ?>" id="" <?php if (isset($_POST['markAll'])) { ?> checked <?php } else { ?> <?php } ?>>
                         </td>
                     </tr>
                 <?php } ?>
                 <tr>
+                    <td></td>
                     <td></td>
                     <td>
                         <button type="submit" name="send">Enviar</button>
