@@ -14,8 +14,7 @@
 
 #### Demos
 
-https://github.com/mbritTech/projectsWithDabatabases/blob/main/demos/bookmarks-demo.mp4
-
+[video](./demos/bookmarks-demo.mp4)
 
 
 
