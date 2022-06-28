@@ -1,4 +1,4 @@
-### In this repo you can discover some projects developped during my finals for the Web Developer's Advanced Technician course.
+### In this repo you can discover some projects developed during my finals for the Web Developer's Advanced Technician course.
 ----------
 
 #### The tools that I mainly use are:
