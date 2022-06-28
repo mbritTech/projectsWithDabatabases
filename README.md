@@ -13,8 +13,9 @@
 4. Enjoy!
 
 #### Demos
+https://user-images.githubusercontent.com/56249995/176222133-b973c537-8333-469e-adf4-974fdb428e39.mp4
 
-[video](./demos/bookmarks-demo.mp4)
+https://user-images.githubusercontent.com/56249995/176222394-9ecbb2e1-d642-4ce9-a425-74196493b047.mp4
 
 
 
